@@ -1,0 +1,19 @@
+﻿  graphics.c
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(301): warning C4133: 'function': incompatible types - from 'WCHAR [32]' to 'char *'
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(605): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(606): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(607): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(609): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(909): warning C4133: 'function': incompatible types - from 'const char *' to 'LPCWSTR'
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(1032): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(1034): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(1041): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(1042): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(1043): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(1045): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(1251): warning C4133: 'function': incompatible types - from 'const char *' to 'LPCWSTR'
+h:\b37vb game project\bgifirsttest\bgifirsttest\bgifirsttest\openbgi-sources-1.5\openbgi\library\graphics.c(1259): warning C4133: 'function': incompatible types - from 'const char *' to 'LPCWSTR'
+  BGIFirstTest.c
+  Generating Code...
+  BGIFirstTest.vcxproj -> H:\B37VB GAME PROJECT\BGIFirstTest\BGIFirstTest\Debug\BGIFirstTest.exe
+  BGIFirstTest.vcxproj -> H:\B37VB GAME PROJECT\BGIFirstTest\BGIFirstTest\Debug\BGIFirstTest.pdb (Full PDB)
