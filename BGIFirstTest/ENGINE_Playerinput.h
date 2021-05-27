@@ -1,4 +1,4 @@
-// Arthur lewis allright reserved lol 
+// Arthur lewis allright reserved "lol"
 #include "ENGINE_ini.h"
 
 // check sign (not from me)
@@ -34,7 +34,7 @@ const float SPEED_1 = 7;
 const float MAX_SPEED = 25;
 const float MIN_SPEED = 1;
 const float GAMESPEED = 1;
-// old engine lines could be swap 
+// old engine lines could be swap by the constant :/
 float Engine_FLOORGRIP = FLOORGRIP / GAMESPEED;
 float Engine_COLISIONGRIP = COLISIONGRIP / GAMESPEED;
 float Engine_SPEED_1 = SPEED_1 / GAMESPEED;
@@ -71,7 +71,7 @@ do {
 	Min_LocationPreditction_x = (Pawn[Player].Location.x - sign(Pawn[Player].LocationOffset.x)* Engine_SPEED_1);
 	Min_LocationPreditction_y = (Pawn[Player].Location.y - sign(Pawn[Player].LocationOffset.y)* Engine_SPEED_1);
 	// check for colision
-	for (int objectindex = 0; objectindex < 10; objectindex++)
+	for (int objectindex = 0; objectindex < 24; objectindex++)
 	{
 
 		//check for intersection on the x component (1 positive and 0 negative)
@@ -99,8 +99,8 @@ do {
 				(Wall[objectindex].Location.y_hitbox[1] >= Min_LocationPreditction_y))
 				{
 					/* check for smooth colision movement state (moving on the side of a colision)
-						if the player is on the side of an object and is offset is inside on one component that mean that the player is free to move
-						on the other component axis as such 
+						if the player is on the side of an object and is offset is inside one hitboxrange that mean that the player is free to move
+						on the other axis
 						exemple : if the player is on the left of a cube and is moving to the right then is next location is inside the cube however if the player is doing
 						such a thing it is imposible that he is on top of the cube because moving right while on top wouldn't trigger colision
 						so only one offset can be denied for any rectangular shape.
@@ -125,7 +125,7 @@ do {
 	// grip and set location
 	Pawn[Player].Location.y += -Pawn[Player].LocationOffset.y;
 	Pawn[Player].Location.x += -Pawn[Player].LocationOffset.x;
-	Pawn[Player].LocationOffset.x *= Engine_FLOORGRIP;
+	Pawn[Player].LocationOffset.x *= Engine_FLOORGRIP;// floor grip is what give the deceleration effect
 	Pawn[Player].LocationOffset.y *= Engine_FLOORGRIP;
 
 	//printf("%f %f \n", Pawn[Player].Location.x, Pawn[Player].Location.y);

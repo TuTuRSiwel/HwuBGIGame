@@ -19,31 +19,29 @@ void main(void)
 
 // Initialise graphic window
 	inigraph();
-/*
-//create a thread to move the character
-	HANDLE hThread;
-	DWORD ThreadID;
-	hThread = CreateThread(
-		NULL,
-		0,
-		Movement,
-		NULL,
-		0,
-		&ThreadID
-		);
 
-	if (hThread == NULL) { printf("Thread creation failed"); }
-	*/
-	////////////////////////////////////
+	//////////////////////////////////// Calling Main Threads from ENGINE_Threadmanager.h
 	CallPlayerInputThread();
 	CallRendererThread();
-
+	//////////////////////////////////// setting first level 
 	SetLevel(1);
 //Gameloop
 	printf("setting hit box on y range (x_hitbox[1] :%f \n x_hitbox[1]:%f)", Wall[1].Location.y_hitbox[1], Wall[1].Location.y_hitbox[1]);
+	int MAXLEVELID = 3;
+	int indexlevelID = 1;
+
+	// level changer
 	while (true) 
 	{
-	delay(1000);
+	if (GetAsyncKeyState(0x20)) {
+		indexlevelID = indexlevelID + 1;
+		if (indexlevelID > MAXLEVELID) { indexlevelID = 1; };
+		ClearWall();
+		SetLevel(indexlevelID);
+		delay(500);
+		}
+	delay(100);
+
 	}
 // wait for key pressed
 readkey();

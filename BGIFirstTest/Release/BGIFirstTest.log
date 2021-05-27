@@ -1,12 +1,24 @@
 ﻿  BGIFirstTest.c
-d:\cpraxisgame\280220_smoothcolision\bgifirsttest\bgifirsttest\ENGINE_Structure.h(68): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-d:\cpraxisgame\280220_smoothcolision\bgifirsttest\bgifirsttest\ENGINE_Structure.h(69): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-d:\cpraxisgame\280220_smoothcolision\bgifirsttest\bgifirsttest\ENGINE_Structure.h(67): warning C4474: 'printf' : too many arguments passed for format string
-  d:\cpraxisgame\280220_smoothcolision\bgifirsttest\bgifirsttest\ENGINE_Structure.h(67): note: placeholders and their parameters expect 4 variadic arguments, but 5 were provided
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\ENGINE_Structure.h(64,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\ENGINE_Structure.h(65,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  BGI.C
+  Client.c
+  graphics.c
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(605,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(606,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(607,46): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(609,5): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(1032,43): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(1034,7): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(1041,47): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(1042,47): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(1043,48): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\BGIFirstTest\openbgi-sources-1.5\openbgi\library\graphics.c(1045,7): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+  IPC.C
+  Server.c
   Generating code
-  1 of 82 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+  81 of 82 functions (98.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  BGIFirstTest.vcxproj -> D:\CpraxisGame\280220_smoothcolision\BGIFirstTest\Release\BGIFirstTest.exe
-  BGIFirstTest.vcxproj -> D:\CpraxisGame\280220_smoothcolision\BGIFirstTest\Release\BGIFirstTest.pdb (Full PDB)
+  BGIFirstTest.vcxproj -> C:\Users\TTR92\Desktop\Rappot Praxis\Visual Studio Project With Source Code\BGIFirstTest\Release\BGIFirstTest.exe

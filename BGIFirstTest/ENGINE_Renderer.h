@@ -1,4 +1,4 @@
-// Arthur lewis allright reserved lol 
+// Arthur lewis allright reserved "lol"
 #include "ENGINE_ini.h"
 
 int pagebuffer = 0;
@@ -49,12 +49,12 @@ DWORD WINAPI RendererStart(LPVOID lpParam)
 		//graphic UPDATE
 		for (int Pawnindex = 0; Pawnindex < 10; Pawnindex++)
 		{
-			circle((int)Pawn[Pawnindex].Location.x,(int)Pawn[Pawnindex].Location.y, 50);
+			circle((int)Pawn[Pawnindex].Location.x,(int)Pawn[Pawnindex].Location.y, 40);
 		}
-		for (int objectindex = 0; objectindex < 10; objectindex++)
+		for (int objectindex = 0; objectindex < 24; objectindex++)
 		{
 			//printf("Drawing rectangle of index %d\n", objectindex);
-			rectangle((int)Wall[objectindex].Location.x_hitbox[0], (int)Wall[objectindex].Location.y_hitbox[0], (int)Wall[objectindex].Location.x_hitbox[1], (int)Wall[objectindex].Location.y_hitbox[1]);
+			bar((int)Wall[objectindex].Location.x_hitbox[0]+35, (int)Wall[objectindex].Location.y_hitbox[0] + 35, (int)Wall[objectindex].Location.x_hitbox[1] - 35, (int)Wall[objectindex].Location.y_hitbox[1] - 35);//reduce the box drawn to match the pawn to wall collision visual
 		}
 		////////sprites
 		
@@ -71,7 +71,7 @@ DWORD WINAPI RendererStart(LPVOID lpParam)
 
 
 		RENDER_DoubleBuffering(0);
-		delay(1);
+		delay(1); //100 fps however doesn't really matter because their is no interpolation function in the moovement loop
 	} 
 	while (true);
 
